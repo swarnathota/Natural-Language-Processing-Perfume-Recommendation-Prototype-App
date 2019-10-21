@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+<head>
+	<title>Perfume</title>
+</head>
+<body>
+	<div>Perfume recommendation app</div>
+	  <form action="/perfume">
+
+<!--     {% for s in string_x %}
+        <br>
+        {{ s }}
+        <br>
+        <input type="text" name="{{ s }}" value="{{x_input[loop.index0]}}">
+    {% endfor %} -->
+    <input type="text" name="txt"> 
+    <br>
+    <input type="submit" value="Submit" method="get">
+
+
+
+  </form>
+
+    <p>
+    rec:
+    {% for r in rec %}
+      <br>  {{r}} <br> 
+    {% endfor %}
+  </p>
+
+</body>
+</html>
