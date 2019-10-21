@@ -6,7 +6,7 @@ Everybody likes perfume but very few of us know or understand ingredients in the
 
 ## Work flow 
 
-#### Data collection
+### Data collection
 
 **.** For this project I collected data from the FranrenceX.com by web scraping using Selenium and BeautifulSoup
 
@@ -16,17 +16,19 @@ Everybody likes perfume but very few of us know or understand ingredients in the
 
 **.** Each perfume text document and details made into a data frame.
 
-####**Text processing and topic modeling**
+### **Text processing and topic modeling**
 
 **.** Spaces, extra tails, special characters, capitals and digits were removed from the text.
 
 **.** Text is subjected to TF-IDF, to know how important the term to the document, and NMF for dimensionality reduction.
 
-####  Results
+### Results
 
 **.** By measuring cosine similarity this model can return perfumes related to the string provided.
 
 **.** Flask app is launched via Jupyter notebook to test the model.
+
+**code for this section is in** [Project4_Metis.ipynb](http://localhost:8888/notebooks/swarna-DS/Metis/Metis_BC/Challenges/Project4/Project4_Metis/Project4_Metis.ipynb)
 
 ## Where we can use 
 
